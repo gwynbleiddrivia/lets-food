@@ -34,3 +34,12 @@ font-family: 'Readex Pro', sans-serif;
 .banner-background{
 	background: lightgray -46px -44px / 123.907% 125.74% no-repeat;
 }
+.customer-width1{
+	width: 26.9375rem;
+}
+.customer-width2{
+	width: 13rem;
+}
+.customer-shadow{
+box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
