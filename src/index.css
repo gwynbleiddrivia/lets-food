@@ -41,5 +41,16 @@ font-family: 'Readex Pro', sans-serif;
 	width: 13rem;
 }
 .customer-shadow{
-box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.join-background{
+   position: relative;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)), url("join.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
 }
