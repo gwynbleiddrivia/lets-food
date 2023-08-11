@@ -14,6 +14,9 @@ font-family: 'Readex Pro', sans-serif;
 	color: rgba(29, 29, 29, 0.70);
 }
 .yellow-color{
+	background: #FFCB45;
+}
+.yellow-font{
 	color: #FFCB45;
 }
 .border-signin{
@@ -24,4 +27,10 @@ font-family: 'Readex Pro', sans-serif;
 }
 .footer-shadow{
 	box-shadow: 0px 4px 12px 0px rgba(29, 29, 29, 0.15);
+}
+.divider-background{
+	background: rgba(29, 29, 29, 0.50);
+}
+.banner-background{
+	background: lightgray -46px -44px / 123.907% 125.74% no-repeat;
 }

@@ -1,6 +1,7 @@
 const Footer = () => {
 	return (
-		<div className="bg-[#FFF9EA] flex justify-between">
+		<div className="bg-[#FFF9EA] flex flex-col justify-between">
+			<div className="flex justify-between my-10">
 			<div className="my-auto flex flex-col gap-4 text-start py-16 px-24">
 				<div className="flex">
 					<p className="my-auto font-bold">Let'sFood</p>
@@ -111,9 +112,10 @@ const Footer = () => {
 
 			</div>
 			
+			</div>
 
-
-			<div></div>
+			<div className="w-full h-0.5 divider-background max-w-4xl mx-auto mb-10"></div>
+			<div className="mb-10 text-sm">© 2022 Let’sFood. ALL RIGHT RESERVED.</div>
 
 		</div>
 	);
