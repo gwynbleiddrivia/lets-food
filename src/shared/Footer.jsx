@@ -1,7 +1,7 @@
 const Footer = () => {
 	return (
 		<div className="bg-[#FFF9EA] flex flex-col justify-between">
-			<div className="flex justify-between my-10">
+			<div className="flex justify-between my-10 md:flex-row flex-col">
 			<div className="my-auto flex flex-col gap-4 text-start py-16 px-24">
 				<div className="flex">
 					<p className="my-auto font-bold">Let'sFood</p>
@@ -47,7 +47,7 @@ const Footer = () => {
 				</div>
 			</div>
 			
-			<div className="my-auto text-start">
+			<div className="m-auto text-start">
 				<div className="flex relative items-center">
 	
 				<div className="w-10 h-10 bg-[#FFAC4B] rounded-full absolute left-[-25px] -top-5 z-100"></div>
@@ -65,7 +65,7 @@ const Footer = () => {
 				</div>	
 			</div>
 
-			<div className="m-auto text-start">
+			<div className="m-auto text-start mt-15">
 	
 				<div>
 				<p className="font-bold mb-8 z-0">Policy</p>

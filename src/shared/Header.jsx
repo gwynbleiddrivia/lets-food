@@ -1,7 +1,7 @@
 const Header = () => {
 	return (
-		<div className="flex justify-between gap-32 bg-[#FFF9EA] px-12 py-4">
-		<div className="flex">
+		<div className="flex md:flex-row flex-col justify-between gap-5 md:gap-32 bg-[#FFF9EA] px-12 py-4">
+		<div className="flex mx-auto">
 			<div className="pt-4 font-bold">Let'sFood</div>
 
 			<svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47" fill="none">
@@ -14,11 +14,11 @@ const Header = () => {
 			</svg>
 
 		</div>
-		<div className="flex justify-between gap-6">
+		<div className="flex md:flex-row flex-col justify-between gap-2 md:gap-6">
 			<div className="flex flex-col">
 	
 			<p className="primary-color">Home</p> 	
-			<div className="bg-[#FFCB45] h-1 w-12 rounded-sm"></div>
+			<div className="bg-[#FFCB45] h-1 w-12 mx-auto rounded-sm"></div>
 
 
 			</div>

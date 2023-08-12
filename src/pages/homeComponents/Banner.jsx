@@ -1,8 +1,8 @@
 
 const Banner = () => {
 	return (
-		<div className="bg-[#FFF9EA] flex justify-between relative">
-			<div className="absolute bottom-[10px]">
+		<div className="bg-[#FFF9EA] flex md:flex-row flex-col justify-between relative">
+			<div className="md:absolute bottom-[10px]">
 
 				<div className="bottom-[-120px] left-[-220px]">
 								
@@ -34,7 +34,7 @@ const Banner = () => {
 				<div className="w-16 h-16 rounded-full bg-[#FFAC4B] absolute right-40 bottom-10"></div>
 
 				</div>
-				<div className="flex relative mr-4">
+				<div className="flex md:flex-row flex-col relative mr-4">
 					<div className="absolute bottom-10 w-8 h-8 rounded-full bg-[#FFAC4B]"></div>
 				<img className="rounded-full w-56 h-40" src="bannerdish2.png" alt=""/>
 				<img className="rounded-full w-64" src="bannerdish3.png" alt=""/>

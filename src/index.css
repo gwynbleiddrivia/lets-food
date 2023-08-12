@@ -54,3 +54,13 @@ font-family: 'Readex Pro', sans-serif;
     justify-content: center;
     height: 20vh;
 }
+@media (max-width: 768px) {
+    .join-background {
+        padding: 1rem;
+        text-align: center;
+    }
+}
+.menu-radius{
+	border-top-left-radius: 40%;
+	border-top-right-radius: 40%;
+}
