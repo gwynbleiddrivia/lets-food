@@ -60,6 +60,7 @@ const Menu = () => {
 					})
 				}
 			</div>
+				<button className="yellow-color w-fit border-signin px-6 py-4 font-bold mx-auto mt-10 mb-20">More Menu</button>
 
 		</div>
 	);

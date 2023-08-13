@@ -1,8 +1,13 @@
 
 const Banner = () => {
 	return (
-		<div className="bg-[#FFF9EA] flex md:flex-row flex-col justify-between relative">
-			<div className="md:absolute bottom-[10px]">
+		<div className="bg-[#FFF9EA] gap-10 flex md:flex-row flex-col justify-between relative">
+			<div className="md:relative flex flex-col text-start gap-4 m-auto md:px-0 px-5">
+				<h1 className="text-4xl font-bold">Be The Fastest In<br/> Delivery Your <span className="yellow-font">Food</span></h1>
+				<p className="secondary-color text-sm font-sm">Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit ut aliquam, purus sit amet</p>
+				<button className="font-bold yellow-color px-6 py-3 border-signin w-fit">Get Started</button>
+
+			<div className="wave md:absolute bottom-[-150px] left-[-115px]">
 
 				<div className="bottom-[-120px] left-[-220px]">
 								
@@ -21,21 +26,19 @@ const Banner = () => {
 
 
 			</div>
-			<div className="flex flex-col text-start gap-4 m-auto">
-				<h1 className="text-4xl font-bold">Be The Fastest In<br/> Delivery Your <span className="yellow-font">Food</span></h1>
-				<p className="secondary-color text-sm font-sm">Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit ut aliquam, purus sit amet</p>
-				<button className="yellow-color px-6 py-3 border-signin w-fit">Get Started</button>
+
+
 			</div>
 			<div className="flex flex-col relative">
 				<div className="flex relative">
-				<div className="absolute top-20 left-[-50px] w-12 h-12 rounded-full bg-[#FFAC4B]"></div>
-				<div className="absolute top-[250px] w-4 h-4 rounded-full bg-[#FFAC4B]"></div>
+				<div className="absolute md:top-20 top-0 md:left-[-50px] left-[40px]  w-12 h-12 rounded-full bg-[#FFAC4B]"></div>
+				<div className="absolute top-[250px] md:left-[0px] left-[40px] w-4 h-4 rounded-full bg-[#FFAC4B]"></div>
 				<img className="rounded-full w-80" src="bannerdish1.png" alt=""/>
-				<div className="w-16 h-16 rounded-full bg-[#FFAC4B] absolute right-40 bottom-10"></div>
+				<div className="w-16 h-16 rounded-full bg-[#FFAC4B] absolute md:right-40 right-[20px] bottom-0"></div>
 
 				</div>
 				<div className="flex md:flex-row flex-col relative mr-4">
-					<div className="absolute bottom-10 w-8 h-8 rounded-full bg-[#FFAC4B]"></div>
+					<div className="absolute md:bottom-10 top-40 left-10 w-8 h-8 rounded-full bg-[#FFAC4B]"></div>
 				<img className="rounded-full w-56 h-40" src="bannerdish2.png" alt=""/>
 				<img className="rounded-full w-64" src="bannerdish3.png" alt=""/>
 					

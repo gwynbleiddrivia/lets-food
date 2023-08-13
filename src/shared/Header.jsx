@@ -90,7 +90,7 @@ const Header = () => {
 			</div>
 			</div>
 
-			<div className="bg-[#FFCB45] py-2 px-4 border-signin flex m-auto gap-4 w-fit">
+			<div className="bg-[#FFCB45] font-bold py-2 px-4 border-signin flex m-auto gap-4 w-fit">
 				<div className="my-auto">
 					<img src="signin.svg" alt=""/>
 				</div>
