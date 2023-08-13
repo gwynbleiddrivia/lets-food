@@ -8,8 +8,8 @@ const CustomerSay = () => {
 				</div>
 				<div className="flex gap-4 md:flex-row flex-col">
 
-					<img className="md:customer-width2 customer-width1 customer-shadow" src="customerdish2.jpeg" alt=""/>
-					<img className="md:customer-width2 customer-width1 customer-shadow" src="customerdish3.jpeg" alt=""/>
+					<img className="customer-width2 customer-shadow" src="customerdish2.jpeg" alt=""/>
+					<img className="customer-width2 customer-shadow" src="customerdish3.jpeg" alt=""/>
 				</div>
 			</div>
 			<div className="mt-10 md:mt-0 flex flex-col text-start md:absolute md:right-[-300px] md:bottom-1/4">
