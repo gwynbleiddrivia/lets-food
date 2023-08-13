@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 
 const ErrorPage = () => {
         return (
-                <div className="flex justify-around flex-col m-10 align-items backdrop-blur w-full h-full">
+                <div className="flex justify-around flex-col mx-auto m-10 align-items backdrop-blur w-full h-full">
                         <p className="text-7xl my-auto text-center">404 Error! </p>    
 
                         <div className="my-auto bg-[#FFF9EA] mt-10">
