@@ -8,11 +8,11 @@ const CustomerSay = () => {
 				</div>
 				<div className="flex gap-4 md:flex-row flex-col">
 
-					<img className="customer-width2 customer-shadow" src="customerdish2.jpeg" alt=""/>
-					<img className="customer-width2 customer-shadow" src="customerdish3.jpeg" alt=""/>
+					<img className="md:customer-width2 customer-width1 customer-shadow" src="customerdish2.jpeg" alt=""/>
+					<img className="md:customer-width2 customer-width1 customer-shadow" src="customerdish3.jpeg" alt=""/>
 				</div>
 			</div>
-			<div className="flex flex-col text-start md:absolute md:right-[-300px] md:bottom-1/4">
+			<div className="mt-10 md:mt-0 flex flex-col text-start md:absolute md:right-[-300px] md:bottom-1/4">
 				<div className="yellow-font text-xl">What the say</div>
 				<div className="font-bold text-3xl">What Our Customers Say<br/> About Us</div>
 				<div className="flex gap-4 flex-col md:flex-row">
