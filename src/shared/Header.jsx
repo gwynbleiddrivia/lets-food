@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useMediaQuery } from '@react-hook/media-query'
+import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
 	const [isVisible, setIsVisible] = useState(false)
@@ -35,17 +36,15 @@ const Header = () => {
 			<>
 
 			<div className="nav flex md:flex-row flex-col justify-between gap-2 md:gap-6 mt-2">
-				<div className="flex flex-col">
+
+			<NavLink to="/" className={({ isActive }) =>isActive ? "primary-color border-b-4 border-[#FFCB45] inline-block text-center rounded-sm" : "secondary-color"}>Home</NavLink>
+			<NavLink to="/menu" className={({ isActive }) =>isActive ? "primary-color border-b-4 border-[#FFCB45] inline-block text-center rounded-sm" : "secondary-color"}>Menu</NavLink>
+			<NavLink to="/howitworks" className={({ isActive }) =>isActive ? "primary-color border-b-4 border-[#FFCB45] inline-block text-center rounded-sm" : "secondary-color"}>How It Works</NavLink>
+			<NavLink to="/about" className={({ isActive }) =>isActive ? "primary-color border-b-4 border-[#FFCB45] inline-block text-center rounded-sm" : "secondary-color"}>About</NavLink>
+			<NavLink to="/contact" className={({ isActive }) =>isActive ? "primary-color border-b-4 border-[#FFCB45] inline-block text-center rounded-sm" : "secondary-color"}>Contact</NavLink>
 		
-				<p className="primary-color">Home</p> 	
-				<div className="bg-[#FFCB45] h-1 w-12 mx-auto rounded-sm"></div>
 
 
-				</div>
-					  <p className="secondary-color">Menu</p> 	
-			  <p className="secondary-color">How it works</p> 	
-			  <p className="secondary-color">About</p> 	
-			  <p className="secondary-color">Contact</p> 	
 			</div>
 		
 
@@ -55,17 +54,22 @@ const Header = () => {
 			<>
 
 			<div className={`nav ${isVisible ? 'visible' : 'hidden'} md:visible flex md:flex-row flex-col justify-between gap-2 md:gap-6 mt-2`}>
-				<div className="flex flex-col">
+
+
+			<NavLink to="/" className={({ isActive }) =>isActive ? "primary-color border-b-4 border-[#FFCB45] inline-block text-center rounded-sm" : "secondary-color"}>Home</NavLink>
+			<NavLink to="/menu" className={({ isActive }) =>isActive ? "primary-color border-b-4 border-[#FFCB45] inline-block text-center rounded-sm" : "secondary-color"}>Menu</NavLink>
+			<NavLink to="/howitworks" className={({ isActive }) =>isActive ? "primary-color border-b-4 border-[#FFCB45] inline-block text-center rounded-sm" : "secondary-color"}>How It Works</NavLink>
+			<NavLink to="/about" className={({ isActive }) =>isActive ? "primary-color border-b-4 border-[#FFCB45] inline-block text-center rounded-sm" : "secondary-color"}>About</NavLink>
+			<NavLink to="/contact" className={({ isActive }) =>isActive ? "primary-color border-b-4 border-[#FFCB45] inline-block text-center rounded-sm" : "secondary-color"}>Contact</NavLink>
 		
-				<p className="primary-color">Home</p> 	
-				<div className="bg-[#FFCB45] h-1 w-12 mx-auto rounded-sm"></div>
 
 
-				</div>
-					  <p className="secondary-color">Menu</p> 	
-			  <p className="secondary-color">How it works</p> 	
-			  <p className="secondary-color">About</p> 	
-			  <p className="secondary-color">Contact</p> 	
+
+
+
+
+
+
 			</div>
 		
 
