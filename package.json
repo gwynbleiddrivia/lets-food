@@ -10,21 +10,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "firebase": "^10.1.0",
-    "firebase-tools": "^12.4.7",
+    "@react-hook/media-query": "^1.1.1",
+    "firebase": "^8.6.8",
+    "firebase-tools": "^0.1.6",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
-    "sort-by": "^1.2.0",
-    "vercel": "^31.2.3"
+    "sort-by": "^0.0.2",
+    "vercel": "^24.2.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
     "autoprefixer": "^10.4.14",
+    "daisyui": "^3.5.1",
     "eslint": "^8.45.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
